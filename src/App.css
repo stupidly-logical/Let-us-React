@@ -1,0 +1,84 @@
+.App {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 15px;
+}
+
+.App-image{
+  width: 100%;
+  height: auto;
+}
+
+
+.App-logo {
+  width: 9%;
+  margin: 6px;
+  margin-left: 10%;
+  height: auto;
+  box-shadow: 0px 0px 2px #000;
+}
+
+.App-header {
+  box-shadow: 0px 3px 15px #aaa;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin-right: 10px;
+  margin-left: 50%;
+  margin-top: 3%;
+}
+li{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a{
+  color: black;
+}
+.Home{
+  font-size: 1.5em;
+  line-height: 35px;
+  font-family: fantasy;
+  word-spacing: 2px;
+}
+
+@media (max-width: 700px){
+  .App {
+    width: 100%;
+    margin: 0px;
+    margin-top: 5px;
+  }
+  .App-logo {
+    width: 35%;
+    margin: 6px;
+    margin-left: 3%;
+    height: 82%;
+    box-shadow: 0px 0px 2px #000;
+  }
+  ul{
+    list-style-type: none;
+    padding: 0px;
+    margin-right: 10px;
+    margin-left: 50%;
+    margin-top: -10%;
+  }
+  li{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .Home {
+    font-size: 1.2em;
+    line-height: 27px;
+  }
+  .Home >p {
+    margin-left: 10px;
+    margin-top: 0px;
+
+  }
+}
