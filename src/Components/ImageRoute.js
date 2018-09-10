@@ -5,7 +5,7 @@ import '../App.css';
 class ImageRoute extends React.Component {
     constructor(props) {
         super(props);
-        this.state = ({ posts: [] })
+        this.state = ({ posts: [] });
     }
 
 
@@ -27,7 +27,6 @@ class ImageRoute extends React.Component {
                         <img src = {post.imageUrl}  alt = "ImageUrl" className = "App-image"/>
                      </div>     
                 ))}
-            
             </div>
         )
     }
