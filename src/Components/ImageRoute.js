@@ -14,7 +14,6 @@ class ImageRoute extends React.Component {
             .then(res => {
                 const posts = res.data.data;
                 this.setState({ posts });
-                console.log(this.state.posts);
             })
     }
 

@@ -4,6 +4,7 @@ import FdcLogo from './Images/image.png';
 import Home from './Components/HomeRoute';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 import ImageRoute from './Components/ImageRoute';
+import Footer from './Footer';
 
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route exact path = "/" component = {Home}/>
             <Route path = "/images" component = {ImageRoute}/>
           </div>
+          <Footer/>
         </div>
       </BrowserRouter>
     );
