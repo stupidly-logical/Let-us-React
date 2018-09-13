@@ -1,6 +1,6 @@
 import React from 'react'
 import '../App.css';
-import FdcImage from '../Images/Season1.png';
+import FdcImage from '../Images/unnamed.jpg';
 
 const Home = () => {
     return (
