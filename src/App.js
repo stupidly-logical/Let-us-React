@@ -2,30 +2,21 @@ import React, { Component } from 'react';
 import './App.css';
 import FdcLogo from './Images/image.png';
 import Home from './Components/HomeRoute';
-import { BrowserRouter, Link, Route } from 'react-router-dom';
-import ImageRoute from './Components/ImageRoute';
 import Footer from './Footer';
 
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
         <div>
           <div className="App-header">
-            <img src={FdcLogo} alt="FDC Logo" className="App-logo" />
-            <ul>
-              <li><Link to = "/">Home</Link></li>
-              <li><Link to = "/images">Images</Link></li>
-            </ul>
+            <img src={FdcLogo} alt="FDC Logo" className="App-logo" />   
           </div>
           <div className="App">
-            <Route exact path = "/" component = {Home}/>
-            <Route path = "/images" component = {ImageRoute}/>
+            <Home />
           </div>
           <Footer/>
         </div>
-      </BrowserRouter>
     );
   }
 }
